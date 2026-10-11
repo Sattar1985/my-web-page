@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>خارطة المشاريع المناخية الممولة دوليًا في العراق</title>
+<title>خارطة المشاريع المناخية الممولة دوليًا في العراق</title><meta name="description" content="خارطة تفاعلية للمشاريع المناخية الممولة دوليًا في العراق - وزارة البيئة / المركز الوطني للتغيرات المناخية / شعبة التكيف"><meta property="og:type" content="website"><meta property="og:locale" content="ar_IQ"><meta property="og:title" content="خارطة المشاريع المناخية الممولة دوليًا في العراق"><meta property="og:description" content="وزارة البيئة العراقية / المركز الوطني للتغيرات المناخية / شعبة التكيف"><meta name="theme-color" content="#0f766e"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%8D%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#06141f;--bg2:#0b2536;--card:rgba(255,255,255,.06);--line:rgba(255,255,255,.14);--tx:#e9f4f7;--mut:#8fb0bd;--ac:#2dd4bf;--ac2:#38bdf8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -317,6 +317,93 @@ html[data-theme="dark"] .pbar span{color:#0c3a44;text-shadow:0 0 4px #ffffffaa}
 html[data-theme="dark"] .pbar{background:#ffffff14}
 .rpb i{background:linear-gradient(90deg,#8fe6d9,#9ad4f7 55%,#ffe39a)}
 @media(max-width:820px){.actwrap{padding:14px 16px 4px}}
+
+#viewDoc{padding:18px 28px 40px;max-width:1280px;margin:0 auto;animation:vin .6s both}
+.yr{display:flex;gap:0;overflow-x:auto;padding:30px 4px 16px;scroll-snap-type:x proximity;position:relative}
+.yr::before{content:"";position:absolute;right:0;left:0;top:46px;height:4px;border-radius:4px;background:linear-gradient(90deg,#d9a300,#0b8a7e,#1b74c4);transform-origin:right;animation:growx 1.8s ease-out both}
+@keyframes growx{from{transform:scaleX(0)}}
+.yi{flex:0 0 190px;position:relative;padding:28px 10px 0;scroll-snap-align:start;text-align:center}
+.yi::before{content:"";position:absolute;top:10px;left:50%;margin-left:-8px;width:16px;height:16px;border-radius:50%;background:#d9a300;border:3px solid var(--bg);box-shadow:0 0 0 0 #d9a30088;animation:dotp 2.6s infinite}
+.yi b{display:block;color:var(--ac);font-size:15px}.yi span{display:block;font-size:13.5px;line-height:1.7;margin-top:4px;color:var(--tx)}
+.dbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:8px}
+.dbar input{flex:1 1 280px;min-width:220px;padding:12px 18px;border-radius:30px;font-size:15px;border:1px solid var(--line);background:var(--card);color:var(--tx);transition:box-shadow .3s,border-color .3s}
+.dbar input:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 4px #0b8a7e22}
+.dbar .fl{margin:0}
+.dg{margin-top:26px}
+.dg h4{display:flex;align-items:center;gap:10px;font-size:19px;margin:0 0 12px;color:var(--tx)}
+.dg h4 .n{font-size:13px;background:var(--ac);color:#fff;border-radius:20px;padding:2px 12px}
+.dc{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:9px;overflow:hidden;transition:transform .35s,box-shadow .35s}
+.dc::before{content:"";position:absolute;top:0;bottom:0;right:0;width:5px;background:var(--cc,#0b8a7e)}
+.dc:hover{transform:translateY(-6px);box-shadow:0 18px 40px #0b3b4626}
+.dc .tp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.sb{font-size:12px;font-weight:700;padding:3px 11px;border-radius:20px;color:#fff;background:var(--cc)}
+.dc .dt{margin-right:auto;font-size:12.5px;color:var(--mut);font-weight:600}
+.dc h5{margin:2px 0 0;font-size:16.5px;line-height:1.6}
+.dc .en{font-size:12.5px;color:var(--mut);direction:ltr;text-align:right;margin-top:-6px}
+.dc p{margin:0;font-size:14px;line-height:1.85;color:var(--mut)}
+.dc .ls{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:4px}
+.dc .ls a{font-size:13px;font-weight:700;text-decoration:none;color:var(--ac2);border:1px solid var(--line);padding:5px 12px;border-radius:20px;transition:.25s}
+.dc .ls a:hover{background:var(--ac2);color:#fff;border-color:var(--ac2)}
+.new{position:absolute;top:12px;left:-30px;transform:rotate(-35deg);background:#e0483e;color:#fff;font-size:11px;font-weight:800;padding:2px 34px}
+.emp{text-align:center;color:var(--mut);padding:40px;font-size:15px}
+@media(max-width:900px){#viewDoc{padding:14px 16px 30px}}
+@media print{#viewDoc{display:none!important}}
+@media(prefers-reduced-motion:reduce){.yr::before,.yi::before{animation:none}}
+
+.dact{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 4px}
+.dx{margin-right:6px;border:1px solid #f0c7c3;background:transparent;color:#b3261e;border-radius:20px;padding:2px 9px;font-size:13px;line-height:1.6;cursor:pointer;transition:.25s;opacity:.55}
+.dc:hover .dx{opacity:1}.dx:hover,.dx.arm{background:#b3261e;color:#fff;border-color:#b3261e;opacity:1}
+html[data-theme="dark"] .dx{border-color:#7a2f2b;color:#ff9a92}html[data-theme="dark"] .dx:hover,html[data-theme="dark"] .dx.arm{background:#b3261e;color:#fff}
+#dUn:disabled{opacity:.4;cursor:not-allowed}#dUn:not(:disabled){border-color:#0b8a7e;background:#e8f7f4;color:#0b6b66}
+html[data-theme="dark"] #dUn:not(:disabled){background:#0f3a40;color:#5eead4;border-color:#2dd4bf}
+
+.vis{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:12px;padding:12px 28px 0;align-items:stretch}
+.vc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 16px;box-shadow:0 4px 14px #0b3b460f;transition:transform .3s}
+.vc:hover{transform:translateY(-3px)}
+.vc span{display:block;color:var(--mut);font-size:13.5px}.vc b{display:block;font-size:26px;color:var(--ac2)}
+.vc.lv b{color:#16a34a}
+.ld{display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin-left:7px;animation:lvp 1.8s infinite}
+@keyframes lvp{0%{box-shadow:0 0 0 0 #22c55e99}70%,100%{box-shadow:0 0 0 10px #22c55e00}}
+.vis>.sec{border-radius:16px;font-weight:700}
+.vnote{margin:6px 28px 0;font-size:12.5px;color:var(--mut);min-height:4px}
+.vh{margin:16px 0 8px;font-size:15px;color:var(--tx)}
+.vgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.vb{position:relative;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:6px 12px;margin-bottom:6px;border-radius:10px;background:color-mix(in srgb,var(--tx) 6%,transparent);overflow:hidden;font-size:14px}
+.vb i{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,#8fe6d9,#9ad4f7);opacity:.55;transition:width 1s cubic-bezier(.22,.9,.3,1);width:0}
+.vb span,.vb b{position:relative}
+.vp{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:14px;padding:8px 12px;border-radius:12px;border:1px dashed var(--line);margin-bottom:6px}
+.vp em{font-style:normal;background:#16a34a;color:#fff;border-radius:20px;padding:0 8px;font-size:12px}
+.vr{display:flex;justify-content:space-between;gap:8px;padding:7px 12px;border-bottom:1px dashed var(--line);font-size:14px}
+.vr span:last-child{color:var(--mut)}
+@media(max-width:900px){.vis{grid-template-columns:repeat(2,1fr);padding:12px 16px 0}.vis>.sec{grid-column:1/-1}.vgrid{grid-template-columns:1fr}.vnote{margin-inline:16px}}
+@media print{.vis,.vnote{display:none!important}}
+.pfoot{margin:10px auto 26px;max-width:1100px;padding:12px 20px;text-align:center;font-size:12.5px;line-height:1.9;color:var(--mut);border-top:1px dashed var(--line)}.pfoot[hidden]{display:none}@media print{.pfoot{display:none}}
+.ld{display:inline-block;width:9px;height:9px;border-radius:50%;background:#22c55e;margin:0;animation:lvp 1.8s infinite;flex:none}
+.vw{position:fixed;left:16px;bottom:18px;z-index:15}
+.vw-pill{display:flex;align-items:center;gap:8px;padding:9px 16px;border-radius:30px;border:1px solid var(--line);background:var(--card);color:var(--tx);box-shadow:0 8px 26px #0b3b4630;backdrop-filter:blur(10px);font-size:14px;font-weight:700;cursor:pointer;transition:transform .3s,box-shadow .3s}
+.vw-pill:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0b3b4640}
+.vw-pill b{color:#16a34a;font-size:16px}
+.vw-card{display:none;width:min(264px,calc(100vw - 32px));padding:14px 16px 16px;border-radius:20px;border:1px solid var(--line);background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(14px);box-shadow:0 16px 44px #0b3b4638;position:relative;overflow:hidden}
+.vw-card::before{content:"";position:absolute;top:0;right:0;left:0;height:4px;background:linear-gradient(90deg,#d9a300,#0b8a7e,#1b74c4);background-size:200% 100%;animation:abg 6s ease-in-out infinite alternate}
+.vw.open .vw-card{display:block;animation:vwin .5s cubic-bezier(.2,.9,.3,1.1) both}
+.vw.open .vw-pill{display:none}
+@keyframes vwin{from{opacity:0;transform:translateY(18px) scale(.94)}}
+.vw-h{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:15px;margin:2px 0 10px}
+.vw-h button{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--mut);font-size:16px;line-height:1;cursor:pointer;padding:0;transition:.25s}
+.vw-h button:hover{background:var(--ac);color:#fff;border-color:var(--ac)}
+.vw-live{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:14px;background:linear-gradient(100deg,#16a34a18,#16a34a08);border:1px solid #16a34a33}
+.vw-live div{display:flex;flex-direction:column}
+.vw-live b{font-size:28px;color:#16a34a;line-height:1.1}.vw-live span{font-size:12.5px;color:var(--mut)}
+.vw-g{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:10px 0}
+.vw-g div{text-align:center;padding:8px 2px;border-radius:12px;background:color-mix(in srgb,var(--tx) 6%,transparent)}
+.vw-g b{display:block;font-size:19px;color:var(--ac2)}.vw-g span{font-size:11.5px;color:var(--mut)}
+.vw-t{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}
+.vw-t .vb{margin:0;padding:4px 10px;font-size:13px}
+.vw-b{width:100%;padding:9px 14px;font-size:14px}
+.vw .vnote{margin:8px 0 0;font-size:11.5px;line-height:1.7}
+@media(max-width:700px){.vw{left:10px;bottom:10px}}
+@media print{.vw{display:none!important}}
+@media(prefers-reduced-motion:reduce){.ld,.vw-card::before{animation:none}}
 </style>
 </head>
 <body>
@@ -333,7 +420,7 @@ html[data-theme="dark"] .pbar{background:#ffffff14}
   </div>
   <div class="credit">إعداد / رئيس مبرمجين ستار عبد الرضا عطية</div>
 </section>
-<nav class="tabs" id="tabs"><button class="on" data-v="map">🗺 خارطة المشاريع</button><button data-v="opp">💡 الفرص والأخبار</button><i id="tind"></i></nav>
+<nav class="tabs" id="tabs"><button class="on" data-v="map">🗺 خارطة المشاريع</button><button data-v="opp">💡 الفرص والأخبار</button><button data-v="doc">📚 الوثائق الوطنية</button><i id="tind"></i></nav>
 <div id="viewMap">
 <div class="stats">
   <div class="stat"><b id="sN">0</b><span>عدد المشاريع</span></div>
@@ -390,6 +477,25 @@ html[data-theme="dark"] .pbar{background:#ffffff14}
   <div class="row"><div><label>نسبة الإنجاز الحالية % (اختياري)</label><input id="fPr" type="number" min="0" max="100" step="1"></div><div></div></div>
   <div class="btns" style="margin-top:14px"><button class="sec" id="pick">📍 تحديد الموقع على الخريطة</button><button class="pri" id="save">حفظ المشروع</button><button class="sec" id="cls2">إلغاء</button></div>
   <p id="err" style="color:#fca5a5;font-size:13px"></p>
+</div></div>
+
+<aside class="vw" id="vWidget" aria-label="إحصاءات الزوار">
+  <button class="vw-pill" id="vPill" title="إحصاءات الزوار"><i class="ld"></i><b id="vNow2">—</b><span>الآن</span></button>
+  <div class="vw-card">
+    <div class="vw-h"><span>👥 إحصاءات الزوار</span><button id="vMin" title="طي" aria-label="طي">−</button></div>
+    <div class="vw-live"><i class="ld"></i><div><b id="vNow">—</b><span>متصل الآن</span></div></div>
+    <div class="vw-g"><div><b id="vTot">—</b><span>زيارة</span></div><div><b id="vUni">—</b><span>زائر</span></div><div><b id="vCty">—</b><span>دولة</span></div></div>
+    <div class="vw-t" id="vTop"></div>
+    <button class="pri vw-b" id="vMore">🌐 تفاصيل الزوار</button>
+    <p class="vnote" id="vNote"></p>
+  </div>
+</aside>
+<div class="modal" id="mVis"><div class="box w" style="width:min(900px,100%)">
+  <div class="rbar"><h2>🌐 إحصاءات الزوار</h2><div class="btns"><button class="sec" id="vCls">إغلاق</button></div></div>
+  <p class="vnote" style="margin:8px 0">البيانات المسجَّلة: نوع الجهاز والمتصفح والنظام والمنطقة الزمنية فقط، دون أسماء أو عناوين. الدولة تقديرية من المنطقة الزمنية واللغة.</p>
+  <h3 class="vh">🟢 المتصلون الآن</h3><div id="vLive"></div>
+  <div class="vgrid"><div><h3 class="vh">🌍 الدول</h3><div id="vCtys"></div></div><div><h3 class="vh">📱 الأجهزة</h3><div id="vDevs"></div><h3 class="vh">🧭 المتصفحات</h3><div id="vBrs"></div></div></div>
+  <h3 class="vh">🕒 آخر الزيارات</h3><div id="vRecent"></div>
 </div></div>
 
 <script>
@@ -490,7 +596,7 @@ function overview(full){
 function openRep(i,m){$("selP").innerHTML=P.map((p,k)=>`<option value="${k}">${esc(p.n)}</option>`).join("");if(i!=null)$("selP").value=i;setMode(m||"one");$("mRep").classList.add("show")}
 let mode="one";
 function setMode(m){mode=m;$("tOne").classList.toggle("act",m=="one");$("tAll").classList.toggle("act",m=="all");$("tEach").classList.toggle("act",m=="each");$("selWrap").style.display=m=="one"?"block":"none";gen()}
-function gen(){try{genRaw()}catch(e){$("report").hidden=false;$("report").innerHTML='<p style="color:#b00020">تعذر إنشاء التقرير: '+esc(e.message)+"</p>"}}
+function gen(){track("report",{type:mode});try{genRaw()}catch(e){$("report").hidden=false;$("report").innerHTML='<p style="color:#b00020">تعذر إنشاء التقرير: '+esc(e.message)+"</p>"}}
 function genRaw(){
   const d=new Date().toLocaleDateString("ar-IQ"),r=$("report");
   const T={one:"تقرير مشروع مناخي",all:"التقرير الشامل للمشاريع المناخية الممولة دوليًا في العراق",each:"التقرير التفصيلي لكل المشاريع المناخية الممولة دوليًا في العراق"};
@@ -537,6 +643,125 @@ $("dGo").onclick=()=>{
   render();fillDel();$("dWarn").style.color="#0b6b66";$("dWarn").textContent="✔ تم حذف المشروع.";setTimeout(()=>{$("dWarn").style.color="#b3261e"},50)};
 const _x=0;
 const UNDO=[];
+const GA_ID="G-X03PRD443G";
+function track(n,p){try{if(window.gtag)gtag("event",n,p||{})}catch(e){}}
+(function(){if(window.claude||!/^G-[A-Z0-9]{6,}$/.test(GA_ID))return;const pf=document.getElementById("pfoot");if(pf)pf.hidden=false;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",GA_ID);const s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+GA_ID;document.head.appendChild(s)})();
+
+const TZC={"Asia/Baghdad":"IQ","Asia/Riyadh":"SA","Asia/Kuwait":"KW","Asia/Dubai":"AE","Asia/Qatar":"QA","Asia/Bahrain":"BH","Asia/Muscat":"OM","Asia/Amman":"JO","Asia/Beirut":"LB","Asia/Damascus":"SY","Asia/Tehran":"IR","Asia/Istanbul":"TR","Europe/Istanbul":"TR","Africa/Cairo":"EG","Africa/Tunis":"TN","Africa/Algiers":"DZ","Africa/Casablanca":"MA","Africa/Tripoli":"LY","Africa/Khartoum":"SD","Asia/Aden":"YE","Asia/Gaza":"PS","Asia/Hebron":"PS","Asia/Jerusalem":"IL","Europe/London":"GB","Europe/Berlin":"DE","Europe/Paris":"FR","Europe/Rome":"IT","Europe/Madrid":"ES","Europe/Amsterdam":"NL","Europe/Stockholm":"SE","Europe/Oslo":"NO","Europe/Copenhagen":"DK","Europe/Helsinki":"FI","Europe/Brussels":"BE","Europe/Zurich":"CH","Europe/Vienna":"AT","Europe/Warsaw":"PL","Europe/Moscow":"RU","Europe/Kyiv":"UA","Europe/Kiev":"UA","America/New_York":"US","America/Chicago":"US","America/Denver":"US","America/Los_Angeles":"US","America/Phoenix":"US","America/Anchorage":"US","America/Toronto":"CA","America/Vancouver":"CA","America/Mexico_City":"MX","America/Sao_Paulo":"BR","America/Argentina/Buenos_Aires":"AR","Asia/Kolkata":"IN","Asia/Calcutta":"IN","Asia/Karachi":"PK","Asia/Dhaka":"BD","Asia/Kabul":"AF","Asia/Tashkent":"UZ","Asia/Shanghai":"CN","Asia/Hong_Kong":"HK","Asia/Tokyo":"JP","Asia/Seoul":"KR","Asia/Singapore":"SG","Asia/Kuala_Lumpur":"MY","Asia/Jakarta":"ID","Asia/Bangkok":"TH","Asia/Manila":"PH","Australia/Sydney":"AU","Australia/Melbourne":"AU","Pacific/Auckland":"NZ","Africa/Johannesburg":"ZA","Africa/Lagos":"NG","Africa/Nairobi":"KE"};
+function meInfo(){
+ const ua=navigator.userAgent||"",lang=navigator.language||"";let tz="";try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){}
+ let cc=TZC[tz]||"";if(!cc){const m=lang.match(/[-_]([A-Za-z]{2})$/);cc=m?m[1].toUpperCase():""}
+ const dev=/iPad|Tablet/i.test(ua)?"لوحي":/Mobi|Android|iPhone/i.test(ua)?"هاتف":"حاسوب";
+ const br=/Edg\//.test(ua)?"Edge":/OPR\//.test(ua)?"Opera":/Firefox\//.test(ua)?"Firefox":/Chrome\//.test(ua)?"Chrome":/Safari\//.test(ua)?"Safari":"أخرى";
+ const os=/Windows/.test(ua)?"Windows":/Android/.test(ua)?"Android":/iPhone|iPad/.test(ua)?"iOS":/Mac OS/.test(ua)?"macOS":/Linux/.test(ua)?"Linux":"أخرى";
+ return{cc,dev,br,os,tz:tz.slice(0,60),lang:lang.slice(0,12)}}
+const okCC=c=>typeof c=="string"&&/^[A-Z]{2}$/.test(c);
+const flag=c=>okCC(c)?String.fromCodePoint(...[...c].map(x=>127397+x.charCodeAt(0))):"🌐";
+const cName=c=>{if(!okCC(c))return"غير معروف";try{return new Intl.DisplayNames(["ar"],{type:"region"}).of(c)||c}catch(e){return c}};
+const safeT=(v,max)=>typeof v=="string"?v.slice(0,max):"";
+const DEVS=["حاسوب","هاتف","لوحي"],BRS=["Chrome","Edge","Safari","Firefox","Opera","أخرى"];
+let VDOCS=null,VPEERS=null,VNOWRITE=false,VDB=false;
+function ago(ms){const s=Math.max(0,(Date.now()-ms)/1000);if(s<90)return"الآن";if(s<3600)return Math.round(s/60).toLocaleString("ar-IQ")+" دقيقة";if(s<86400)return Math.round(s/3600).toLocaleString("ar-IQ")+" ساعة";return Math.round(s/86400).toLocaleString("ar-IQ")+" يوم"}
+function bars(box,map,tot,lab){const e=Object.entries(map).sort((a,b)=>b[1]-a[1]);box.innerHTML=e.length?e.map(([k,n])=>`<div class="vb"><i style="width:${tot?Math.round(n*100/tot):0}%"></i><span>${lab?lab(k):esc(k)}</span><b>${n.toLocaleString("ar-IQ")}</b></div>`).join(""):'<div class="vnote">لا توجد بيانات بعد.</div>'}
+function paintVis(){
+ const d=VDOCS||[];let tot=0;const cc={},dv={},br={};
+ d.forEach(x=>{tot+=Math.max(0,+x.visits||0);const c=okCC(x.cc)?x.cc:"?";cc[c]=(cc[c]||0)+1;const dd=DEVS.includes(x.dev)?x.dev:"أخرى";dv[dd]=(dv[dd]||0)+1;const b=BRS.includes(x.br)?x.br:"أخرى";br[b]=(br[b]||0)+1});
+ if(VDOCS){cnt("vTot",tot);cnt("vUni",d.length);cnt("vCty",Object.keys(cc).filter(k=>k!="?").length)}
+ if(VPEERS){cnt("vNow",VPEERS.length);$("vNow2").textContent=VPEERS.length.toLocaleString("ar-IQ")}
+ const tp=Object.entries(cc).filter(x=>x[0]!="?").sort((a,b)=>b[1]-a[1]).slice(0,3);$("vTop").innerHTML=tp.map(([k,n])=>`<div class="vb"><i style="width:${d.length?Math.round(n*100/d.length):0}%"></i><span>${flag(k)} ${esc(cName(k))}</span><b>${n.toLocaleString("ar-IQ")}</b></div>`).join("");
+ const notes=[];if(!VDB)notes.push("إحصاءات الزيارات تتطلب فتح الصفحة بحساب مسجَّل لديه صلاحية.");else if(VNOWRITE)notes.push("حسابك للقراءة فقط، فلا تُحتسب زيارتك لكن ترى الإحصاءات.");
+ if(VDB&&VPEERS===null)notes.push("عدّاد المتصلين الآن غير متاح في هذا العرض.");
+ $("vNote").textContent=notes.join(" ");
+ if(!$("mVis").classList.contains("show"))return;
+ bars($("vCtys"),cc,d.length,k=>k=="?"?"🌐 غير معروف":flag(k)+" "+esc(cName(k)));bars($("vDevs"),dv,d.length);bars($("vBrs"),br,d.length);
+ const live=VPEERS||[];$("vLive").innerHTML=live.length?live.map(p=>{const r=p.presence||{};return `<div class="vp"><span>${flag(r.cc)} ${esc(cName(r.cc))}</span><span>${esc(DEVS.includes(r.dev)?r.dev:"")} ${esc(BRS.includes(r.br)?r.br:"")}</span>${p.isMe&&p.sameTab?"<em>أنت</em>":""}</div>`}).join(""):'<div class="vnote">لا بيانات عن المتصلين حاليًا.</div>';
+ const rc=d.filter(x=>+x.last).sort((a,b)=>b.last-a.last).slice(0,10);
+ $("vRecent").innerHTML=rc.length?rc.map(x=>`<div class="vr"><span>${flag(x.cc)} ${esc(cName(x.cc))} · ${esc(DEVS.includes(x.dev)?x.dev:"")} · ${esc(BRS.includes(x.br)?x.br:"")} · ${esc(safeT(x.os,12))}</span><span>منذ ${ago(+x.last)} · ${(+x.visits||1).toLocaleString("ar-IQ")} زيارة</span></div>`).join(""):'<div class="vnote">لا توجد زيارات مسجَّلة بعد.</div>';
+}
+
+(function(){const w=$("vWidget");let o=window.innerWidth>900;try{const s=localStorage.getItem("iqVW");if(s!==null)o=s=="1"}catch(e){}
+ const set=v=>{w.classList.toggle("open",v);try{localStorage.setItem("iqVW",v?"1":"0")}catch(e){}};set(o);
+ $("vMin").onclick=()=>set(false);$("vPill").onclick=()=>set(true)})();
+$("vMore").onclick=()=>{$("mVis").classList.add("show");paintVis()};
+$("vCls").onclick=()=>$("mVis").classList.remove("show");
+(async function(){
+ const cl=window.claude;if(!cl||!cl.use){$("vWidget").style.display="none";return}
+ const g=n=>cl.use(n).catch(()=>null);
+ const [db,user,room]=await Promise.all([g("db"),g("user"),g("room")]);
+ const info=meInfo();
+ if(room){try{room.onPeers(ch=>{VPEERS=ch.peers.filter(p=>p.kind=="viewer");paintVis()});await room.presence({cc:info.cc,dev:info.dev,br:info.br})}catch(e){}}
+ if(db){VDB=true;
+  try{db.collection("visitors").onSnapshot(s=>{VDOCS=s.docs.map(x=>x.data()||{});paintVis()},()=>{VDB=false;paintVis()})}catch(e){VDB=false}
+  let uid=null;try{uid=user?await user.id():null}catch(e){}
+  let done=false;try{done=!!sessionStorage.getItem("iqVisited")}catch(e){}
+  if(uid&&!done){
+   try{const ref=db.doc("visitors/"+uid),sn=await ref.get(),pv=sn.exists?sn.data():{},now=Date.now();
+    await ref.set({first:+pv.first||now,last:now,visits:(+pv.visits||0)+1,cc:info.cc,dev:info.dev,br:info.br,os:info.os,tz:info.tz,lang:info.lang});
+    try{sessionStorage.setItem("iqVisited","1")}catch(e){}}
+   catch(e){VNOWRITE=true}
+  }else if(!uid){VNOWRITE=true}
+ }
+ paintVis()})();
+
+const SRC={u:["الاتفاقية الإطارية واتفاق باريس","#0b8a7e"],m:["وزارة البيئة العراقية","#c98f00"],o:["الأمم المتحدة والمنظمات الدولية","#1b74c4"]};
+const CT=[["nd","📜","الالتزامات والمساهمات المحددة وطنيًا"],["rp","📊","الإبلاغ والشفافية"],["ad","🛡","التكيّف والهشاشة"],["mi","⚡","التخفيف والطاقة والاستثمار"],["st","🏛","الاستراتيجيات والسياسات الوطنية"],["rs","🔬","دراسات وتقارير المنظمات الدولية"]];
+const U="https://";
+const BASE=[
+{c:"nd",s:"u",t:"المساهمة المحددة وطنيًا المزمعة (INDC)",en:"Intended Nationally Determined Contribution",d:"2015",y:2015,ty:"التزام",st:"ok",x:"قُدّمت قبل اتفاق باريس، وحلّت محلها المساهمة المحددة وطنيًا الأولى عام 2021.",l:[["ملخص السياسة (IEA)",U+"www.iea.org/policies/14824-nationally-determined-contribution-ndc-to-the-paris-agreement-iraq"]]},
+{c:"nd",s:"u",t:"المساهمة المحددة وطنيًا الأولى (NDC 1)",en:"Iraq First NDC",d:"2021",y:2021,ty:"التزام",st:"ok",x:"أول مساهمة بعد تصديق العراق على اتفاق باريس في 1 نوفمبر 2021، وركزت على خفض حرق الغاز والميثان في الزراعة والنفايات والنقل.",l:[["الوثيقة",U+"climate-laws.org/document/iraq-first-ndc_3fae"],["ملخص السياسة (IEA)",U+"www.iea.org/policies/14824-nationally-determined-contribution-ndc-to-the-paris-agreement-iraq"]]},
+{c:"nd",s:"u",t:"المساهمة المحددة وطنيًا المحدَّثة (NDC 3.0)",en:"Iraq NDC 3.0 — 2035",d:"13 نوفمبر 2025",y:2025,ty:"التزام",st:"ok",x:"هدف غير مشروط حتى 3% دون المسار المعتاد بحلول 2030 وحتى 5% بحلول 2035، وإجمالي 22% بحلول 2035 مع 17% مشروطة بالدعم الدولي. تقدّر الاحتياجات التمويلية بنحو 72.2 مليار $ والخسائر السنوية بنحو 5 مليارات $.",l:[["الوثيقة (UNFCCC)",U+"unfccc.int/sites/default/files/2026-01/NDC%20Report%20EN%20-%202025.pdf"],["سجل المساهمات",U+"unfccc.int/node/653770"],["الإطلاق الرسمي (UNDP)",U+"www.undp.org/iraq/press-releases/iraq-launches-updated-nationally-determined-contribution"],["شراكة NDC",U+"ndcpartnership.org/country/irq"]]},
+{c:"rp",s:"u",t:"البلاغ الوطني الأول (INC)",en:"Initial National Communication",d:"2017",y:2017,ty:"تقرير",st:"ok",x:"أول بلاغ وطني قدّمه العراق إلى الاتفاقية الإطارية، وفق سجل Climate Change Laws of the World الذي أخذه من موقع الاتفاقية.",l:[["الوثيقة (سجل القوانين المناخية)",U+"climate-laws.org/document/iraq-national-communication-nc1_a094"],["نسخة أخرى",U+"climate-laws.org/document/iraq-national-communication-nc-nc-1_b7eb"]]},
+{c:"rp",s:"u",t:"البلاغ الوطني الثاني (NC2)",en:"Second National Communication",d:"25 سبتمبر 2025",y:2025,ty:"تقرير",st:"ok",x:"قُدّم في وثيقة واحدة مع تقرير التحديث الثنائي الأول. أعدّه فريق وطني من وزارات ومؤسسات بحثية بدعم من GEF، ويتضمن الظروف الوطنية والجرد والتخفيف والتكيّف.",l:[["صفحة التقديم (UNFCCC)",U+"unfccc.int/documents/650065"],["النص الكامل",U+"unfccc.int/sites/default/files/resource/IRAQ%20SNCBUR%20-ENGLISH.pdf"],["الإعلان (الأمم المتحدة)",U+"iraq.un.org/en/295200-iraq-advances-developing-transparency-frameworks-climate-action"]]},
+{c:"rp",s:"u",t:"تقرير التحديث الثنائي الأول (BUR1)",en:"First Biennial Update Report",d:"25 سبتمبر 2025",y:2025,ty:"تقرير",st:"ok",x:"أول تقرير تحديث ثنائي للعراق، قُدّم مع البلاغ الوطني الثاني في الوثيقة نفسها.",l:[["صفحة التقديم (UNFCCC)",U+"unfccc.int/documents/650065"],["النص الكامل",U+"unfccc.int/sites/default/files/resource/IRAQ%20SNCBUR%20-ENGLISH.pdf"]]},
+{c:"rp",s:"u",t:"تقرير الشفافية الثنائي الأول (BTR1)",en:"First Biennial Transparency Report",d:"سبتمبر 2025",y:2025,ty:"تقرير",st:"ok",x:"أول تقرير للعراق بموجب إطار الشفافية المعزز في اتفاق باريس، ويستند إلى جرد غازات الدفيئة لعامي 2020 و2021 وتتبّع تقدم المساهمة المحددة وطنيًا.",l:[["النص الكامل (UNFCCC)",U+"unfccc.int/sites/default/files/resource/Iraq%20BTR%20%209%20September%202025_Final%20English%20Designed.pdf"],["نسخة بديلة",U+"climate-laws.org/documents/iraq-s-first-biennial-transparency-report-submitted-to-the-unfccc_3d51"]]},
+{c:"ad",s:"u",t:"خطة التكيّف الوطنية (NAP)",en:"National Adaptation Plan",d:"عملية منذ 2020",y:2020,ty:"خطة",st:"wait",x:"أُطلقت العملية عام 2020 بدعم UNEP وجاهزية صندوق المناخ الأخضر. حتى 7 أكتوبر 2026 لا يظهر العراق ضمن الخطط المقدَّمة في منصة NAP Central، أي أن الوثيقة النهائية لم تُنشر بعد.",l:[["الخطط المقدَّمة (NAP Central)",U+"napcentral.org/submitted-naps"],["تقييم الصمود (IEA)",U+"www.iea.org/reports/national-climate-resilience-assessment-for-iraq"]]},
+{c:"ad",s:"o",t:"مؤشر الهشاشة المناخية للعراق",en:"Climate Vulnerability Index of Iraq",d:"18 سبتمبر 2025",y:2025,ty:"دراسة",st:"ok",x:"أول مؤشر شامل يغطي المحافظات الـ19 بتمويل كندي، ويحدد بؤر الهشاشة ويشكّل أساسًا علميًا لخطة التكيّف الوطنية.",l:[["صفحة المؤشر (UNDP)",U+"www.undp.org/iraq/publications/climate-vulnerability-index-iraq"],["التقرير الكامل (عربي)",U+"www.undp.org/sites/g/files/zskgke326/files/2026-03/cvi-ar-full-report.pdf"],["التقرير الكامل (EN)",U+"www.undp.org/sites/g/files/zskgke326/files/2026-03/cvi-full-report-en_.pdf"],["الملخص (عربي)",U+"www.undp.org/sites/g/files/zskgke326/files/2026-03/cvi-ar-sum.pdf"],["الملخص (EN)",U+"www.undp.org/sites/g/files/zskgke326/files/2026-03/cvi-en-sum.pdf"]]},
+{c:"ad",s:"o",t:"خطة التكيّف المناخي المحلية لإقليم كردستان",en:"Local Climate Change Adaptation Plan — KRI",d:"مايو 2024",y:2024,ty:"خطة",st:"ok",x:"خطة محلية أعدّها UNDP مع هيئة حماية وتحسين البيئة في الإقليم، تحلل السيناريوهات المناخية وتحدد إجراءات التكيّف القطاعية.",l:[["الوثيقة (UNDP)",U+"www.undp.org/iraq/publications/local-climate-change-adaptation-plan-kurdistan-region-iraq"]]},
+{c:"ad",s:"o",t:"تقييم الصمود المناخي الوطني للعراق",en:"National Climate Resilience Assessment for Iraq",d:"2024",y:2024,ty:"دراسة",st:"ok",x:"تقييم لوكالة الطاقة الدولية لمخاطر المناخ على قطاع الطاقة والكهرباء وإطار السياسات المرتبط به.",l:[["التقرير (IEA)",U+"www.iea.org/reports/national-climate-resilience-assessment-for-iraq"]]},
+{c:"mi",s:"o",t:"برنامج العراق القطري لصندوق المناخ الأخضر",en:"GCF Country Programme",d:"1 أبريل 2025",y:2025,ty:"برنامج",st:"ok",x:"إطار لتحويل أولويات الزراعة والمياه إلى مقترحات مشاريع قابلة للتمويل، وأُطلق ضمن الوثائق الأساسية لتحديث المساهمة المحددة وطنيًا.",l:[["الوثيقة (GCF)",U+"www.greenclimate.fund/node/20394"],["صفحة UNDP",U+"www.undp.org/node/545056"],["صفحة العراق (GCF)",U+"www.greenclimate.fund/countries/iraq"],["الإطلاق (UNDP)",U+"www.undp.org/arab-states/press-releases/iraq-launches-background-documents-its-updated-nationally-determined-contribution-advance-climate-action"]]},
+{c:"mi",s:"o",t:"إجراءات التخفيف المناسبة وطنيًا (NAMA)",en:"Nationally Appropriate Mitigation Action",d:"2024",y:2024,ty:"خطة",st:"ok",x:"وثيقة تخفيف جرى إعدادها عام 2024 وأُطلقت في سبتمبر 2025 مع الوثائق الأساسية للمساهمة المحدَّثة.",l:[["الإطلاق (UNDP)",U+"www.undp.org/arab-states/press-releases/iraq-launches-background-documents-its-updated-nationally-determined-contribution-advance-climate-action"]]},
+{c:"mi",s:"o",t:"خطة الاستثمار المناخي 2025–2030",en:"Climate Investment Plan (CIP)",d:"سبتمبر 2025",y:2025,ty:"خطة",st:"ok",x:"تحوّل الأهداف المناخية إلى حافظة استثمارات قابلة للتمويل، وأُطلقت ضمن الوثائق الأساسية للمساهمة المحدَّثة.",l:[["الإطلاق (UNDP)",U+"www.undp.org/arab-states/press-releases/iraq-launches-background-documents-its-updated-nationally-determined-contribution-advance-climate-action"]]},
+{c:"mi",s:"o",t:"دراسة إطار تحول الطاقة",en:"Energy Transition Framework Study",d:"سبتمبر 2025",y:2025,ty:"دراسة",st:"ok",x:"دراسة داعمة لمسار التخفيف في قطاعي الكهرباء والطاقة، أُطلقت مع الوثائق الأساسية للمساهمة المحدَّثة.",l:[["الإطلاق (UNDP)",U+"www.undp.org/arab-states/press-releases/iraq-launches-background-documents-its-updated-nationally-determined-contribution-advance-climate-action"]]},
+{c:"mi",s:"u",t:"تقييم احتياجات التكنولوجيا (TNA)",en:"Technology Needs Assessment",d:"2024",y:2024,ty:"تقييم",st:"ok",x:"أُنجز عام 2024 بحسب المساهمة المحدَّثة، ويحدد أولويات نقل التكنولوجيا للتخفيف والتكيّف.",l:[["مذكور في NDC 3.0",U+"unfccc.int/sites/default/files/2026-01/NDC%20Report%20EN%20-%202025.pdf"]]},
+{c:"st",s:"m",t:"الاستراتيجية الوطنية لحماية وتحسين البيئة 2024–2030",en:"National Environmental Strategy 2024–2030",d:"2024",y:2024,ty:"استراتيجية",st:"ok",x:"الإطار الوطني للسياسة البيئية، وهي من الوثائق التي استندت إليها المساهمة المحدَّثة. منشورة على موقع وزارة البيئة.",l:[["موقع الوزارة",U+"moen.gov.iq/ar/national-strategy-for-protection-and-improvement-of-the-environment-in-the-republic-of-iraq-2024-2030"]]},
+{c:"st",s:"m",t:"الاستراتيجية الوطنية للحد من التلوث",en:"National Pollution Reduction Strategy",d:"صادق عليها مجلس الوزراء",y:2025,ty:"استراتيجية",st:"ok",x:"إطار شامل لمعالجة التحديات البيئية بالتنسيق مع الموارد المائية والزراعة والبلديات والحكومات المحلية، وفق تصريح وزير البيئة في مارس 2025.",l:[["خبر الوزارة",U+"moen.gov.iq/ar/news63"]]},
+{c:"st",s:"m",t:"صفحة التغير المناخي — وزارة البيئة",en:"Ministry of Environment — Climate Change",d:"مرجع",y:2025,ty:"بوابة",st:"info",x:"البوابة الرسمية لوزارة البيئة الخاصة بملف التغير المناخي وسياسات الوزارة.",l:[["فتح الصفحة",U+"moen.gov.iq/ar/climate-change"]]},
+{c:"rs",s:"o",t:"الهجرة والبيئة وتغير المناخ في العراق",en:"Migration, Environment and Climate Change in Iraq",d:"2022",y:2022,ty:"دراسة",st:"ok",x:"دراسة للمنظمة الدولية للهجرة عن أثر شح المياه والملوحة على النزوح في المحافظات الجنوبية.",l:[["التقرير (IOM)",U+"environmentalmigration.iom.int/sites/g/files/tmzbdl1411/files/documents/Migration,%20Environment%20and%20Climate%20Change%20in%20Iraq.pdf"]]},
+{c:"rs",s:"o",t:"محركات النزوح المناخي في العراق — تقييم الهشاشة",en:"Drivers of Climate-Induced Displacement in Iraq",d:"2023",y:2023,ty:"تقييم",st:"ok",x:"تقييم ميداني للمنظمة الدولية للهجرة لمحركات النزوح بسبب المناخ في وسط وجنوب العراق.",l:[["التقرير (الأمم المتحدة)",U+"iraq.un.org/ku/download/146894/251774"]]},
+{c:"rs",s:"o",t:"تقييم الهشاشة المناخية في إقليم كردستان",en:"Climate Vulnerability Assessment — KRI",d:"2024",y:2024,ty:"تقييم",st:"ok",x:"مسح لأكثر من 800 موقع في محافظات دهوك وأربيل والسليمانية بين سبتمبر وديسمبر 2023.",l:[["التقرير (IOM DTM)",U+"iraqdtm.iom.int/files/Climate/2024624628127_CVA_KRI_v12.pdf"]]},
+{c:"rs",s:"o",t:"العراق على منصة الوعد المناخي (UNDP Climate Promise)",en:"UNDP Climate Promise — Iraq",d:"2026",y:2026,ty:"بوابة",st:"info",x:"ملخص لمحاور المساهمة المحدَّثة: خفض الانبعاثات دون 300 مليون طن مكافئ بحلول 2035، وأولويات التكيّف في المياه والصحة والزراعة.",l:[["فتح الصفحة",U+"climatepromise.undp.org/what-we-do/where-we-work/iraq"]]}];
+const YR=[["28 يوليو 2009","الانضمام إلى الاتفاقية الإطارية والتصديق على بروتوكول كيوتو"],["2015","تقديم المساهمة المزمعة (INDC)"],["2017","تقديم البلاغ الوطني الأول"],["8 ديسمبر 2016","التوقيع على اتفاق باريس"],["2020","إطلاق عملية خطة التكيّف الوطنية"],["1 نوفمبر 2021","التصديق على اتفاق باريس وتقديم NDC الأولى"],["2024","إنجاز TNA وNAMA"],["سبتمبر 2025","تقديم BTR1 والبلاغ الثاني وتقرير التحديث الأول"],["13 نوفمبر 2025","تقديم المساهمة المحدَّثة NDC 3.0"],["7 أكتوبر 2026","الإطلاق الرسمي للمساهمة المحدَّثة في بغداد"]];
+
+let DX=[],DD=[],DOCS=[];const UNDOD=[];
+try{DX=JSON.parse(localStorage.getItem("iqDocsExtra")||"[]");DD=JSON.parse(localStorage.getItem("iqDocsDel")||"[]")}catch(e){}
+const rebuildDocs=()=>{DOCS=BASE.filter(d=>!DD.includes(d.t)).concat(DX)};rebuildDocs();
+const saveD=()=>{try{localStorage.setItem("iqDocsExtra",JSON.stringify(DX));localStorage.setItem("iqDocsDel",JSON.stringify(DD))}catch(e){}};
+function kpis(){$("dK").innerHTML=[[DOCS.length,"وثيقة في المكتبة"],[DOCS.filter(d=>d.s=="u").length,"لدى الاتفاقية الإطارية"],[DOCS.filter(d=>d.s=="m").length,"لدى وزارة البيئة"],[DOCS.filter(d=>d.s=="o").length,"لدى الأمم المتحدة والمنظمات"]].map(k=>`<div><b data-v="${k[0]}" data-d="0">0</b><span>${k[1]}</span></div>`).join("");document.querySelectorAll("#dK b").forEach(b=>anim(b,+b.dataset.v,0))}
+function upD(){const n=UNDOD.length;$("dUn").disabled=!n;$("dUn").textContent=n?"↩ تراجع ("+n+")":"↩ تراجع";$("dRs").style.display=DD.length?"":"none"}
+function refreshD(){rebuildDocs();saveD();drawD();kpis();upD()}
+function okUrl(v){v=(v||"").trim();if(!v)return null;if(!/^[a-z][a-z0-9+.-]*:/i.test(v))v="https://"+v;try{const u=new URL(v);return(u.protocol=="https:"||u.protocol=="http:")&&u.hostname.includes(".")?u.href:null}catch(e){return null}}
+function delDoc(btn){
+ const d=DOCS[+btn.dataset.i];if(!d)return;
+ if(!btn.classList.contains("arm")){btn.classList.add("arm");btn.textContent="تأكيد الحذف؟";setTimeout(()=>{if(btn.isConnected){btn.classList.remove("arm");btn.textContent="🗑"}},3000);return}
+ if(d.custom)DX=DX.filter(x=>x!==d);else DD.push(d.t);
+ UNDOD.push(d);refreshD();toast("تم حذف الوثيقة — يمكنك التراجع")}
+function undoDoc(){const d=UNDOD.pop();if(!d)return;if(d.custom)DX.push(d);else DD=DD.filter(x=>x!==d.t);refreshD();toast("↩ تمت إعادة: "+d.t.slice(0,40))}
+let dSrc="all",dQ="";
+function drawD(){
+ const f=DOCS.map((d,i)=>({d,i})).filter(({d})=>(dSrc=="all"||d.s==dSrc)&&(!dQ||(d.t+(d.en||"")+(d.x||"")).toLowerCase().includes(dQ)));
+ $("dGroups").innerHTML=f.length?CT.map(g=>{const a=f.filter(({d})=>d.c==g[0]);if(!a.length)return"";
+  return `<div class="dg rv"><h4><span>${g[1]}</span>${g[2]}<span class="n">${a.length}</span></h4><div class="grid">${a.map(({d,i})=>{const S=SRC[d.s]||SRC.o;return `<article class="dc rv" style="--cc:${S[1]}">${d.y>=2025?'<span class="new">حديث</span>':""}<div class="tp"><span class="sb">${S[0]}</span><span class="bd ${d.st||"ok"}">${esc(d.ty||"")}</span><span class="dt">${esc(d.d||"")}</span><button class="dx" data-i="${i}" title="حذف الوثيقة">🗑</button></div><h5>${esc(d.t)}</h5>${d.en?`<div class="en">${esc(d.en)}</div>`:""}${d.x?`<p>${esc(d.x)}</p>`:""}<div class="ls">${d.l.map(k=>`<a href="${esc(k[1])}" target="_blank" rel="noopener noreferrer">${esc(k[0])} ↗</a>`).join("")}</div></article>`}).join("")}</div></div>`}).join(""):'<div class="emp">لا توجد وثائق مطابقة.</div>';
+ document.querySelectorAll(".dx").forEach(b=>b.onclick=()=>delDoc(b));reveal()}
+let docInit=false;
+function initDoc(){if(!docInit){docInit=true;
+ $("yr").innerHTML=YR.map(y=>`<div class="yi"><b>${y[0]}</b><span>${y[1]}</span></div>`).join("");
+ chipsFor($("dChips"),[["all","الكل"],["u","الاتفاقية واتفاق باريس"],["m","وزارة البيئة"],["o","الأمم المتحدة والمنظمات"]],k=>{dSrc=k;drawD()});
+ $("dUn").onclick=undoDoc;$("dRs").onclick=()=>{DD=[];UNDOD.length=0;refreshD();toast("تمت استعادة الوثائق المحذوفة")};upD();
+ $("dq").oninput=e=>{dQ=e.target.value.trim().toLowerCase();drawD()};
+ $("dNote").textContent="جُمعت الوثائق من صفحات الاتفاقية الإطارية ومنصة NAP Central وموقع وزارة البيئة وUNDP والمنظمة الدولية للهجرة ووكالة الطاقة الدولية حتى تاريخ التحديث. لم تُنشر خطة التكيّف الوطنية النهائية بعد، ولم أجد على موقع وزارة البيئة سوى الاستراتيجية الوطنية 2024–2030 وصفحة التغير المناخي، فأدرجتهما. الملخصات بصياغتي، ويُرجى الرجوع إلى النص الأصلي قبل الاستشهاد. حذف الوثائق من العرض يُحفظ في متصفحك فقط ولا يراه غيرك.";
+ drawD()}
+ kpis();reveal()}
+
 const SAVEP=()=>{try{localStorage.setItem("iqProg",JSON.stringify(PROG))}catch(e){}};
 function getPr(p){const e=PROG[p.n];return e&&e.v!=null?e.v:(p.pr0!=null?p.pr0:null)}
 function avgPr(){const a=P.map(getPr).filter(v=>v!=null);return a.length?Math.round(a.reduce((s,v)=>s+v,0)/a.length):null}
@@ -587,7 +812,7 @@ const fD=d=>new Date(d).toLocaleDateString("ar-IQ",{day:"numeric",month:"long",y
 function anim(el,v,dec){const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/1500),x=v*(1-Math.pow(1-k,3));el.textContent=x.toLocaleString("ar-IQ",{maximumFractionDigits:dec,minimumFractionDigits:dec});if(k<1)requestAnimationFrame(f)})(t0)}
 function chipsFor(box,items,cb){box.innerHTML=items.map((x,i)=>`<button class="${i?"":"on"}" data-k="${x[0]}">${x[1]}</button>`).join("");box.querySelectorAll("button").forEach(b=>b.onclick=()=>{box.querySelectorAll("button").forEach(z=>z.classList.remove("on"));b.classList.add("on");cb(b.dataset.k)})}
 let IO=null;
-function reveal(){if(!IO)IO=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");IO.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll("#viewOpp .rv:not(.in)").forEach((e,i)=>{e.style.transitionDelay=Math.min(i%6,5)*70+"ms";IO.observe(e)})}
+function reveal(){if(!IO)IO=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");IO.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll("#viewOpp .rv:not(.in),#viewDoc .rv:not(.in)").forEach((e,i)=>{e.style.transitionDelay=Math.min(i%6,5)*70+"ms";IO.observe(e)})}
 function drawF(k){$("fGrid").innerHTML=FC.filter(f=>k=="all"||f.c==k).map(f=>`<article class="fc rv" style="--cc:${f.col}"><div class="top"><div class="ic">${f.ic}</div><h4>${f.n}</h4><span class="bd ${f.sc}">${f.st}</span></div><div class="fig">${f.fig}</div><div class="fl2">${f.fl}</div><p>${f.d}</p><ul>${f.p.map(x=>`<li>${x}</li>`).join("")}</ul><a href="${f.u}" target="_blank" rel="noopener">المصدر الرسمي ↗</a></article>`).join("");reveal()}
 function drawN(k){$("nGrid").innerHTML=NW.filter(n=>k=="all"||n.g==k).map(n=>`<article class="nc rv"><div class="meta"><span class="tg">${GN[n.g]}</span><span>${n.s} · ${fD(n.d)}</span></div><h5>${n.t}</h5><p>${n.x}</p><a href="${n.u}" target="_blank" rel="noopener">قراءة المصدر ↗</a></article>`).join("");reveal()}
 let oppInit=false;
@@ -600,7 +825,7 @@ function initOpp(){if(!oppInit){oppInit=true;
  drawF("all");drawN("all")}
  document.querySelectorAll("#oppK b").forEach(b=>anim(b,+b.dataset.v,+b.dataset.d));reveal()}
 function indic(){const b=document.querySelector("#tabs button.on"),i=$("tind");i.style.width=b.offsetWidth+"px";i.style.left=b.offsetLeft+"px"}
-document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#tabs button").forEach(z=>z.classList.remove("on"));b.classList.add("on");const o=b.dataset.v=="opp";$("viewMap").hidden=o;$("viewOpp").hidden=!o;indic();if(o)initOpp();scrollTo({top:0,behavior:"smooth"})});
+document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#tabs button").forEach(z=>z.classList.remove("on"));b.classList.add("on");const v=b.dataset.v;$("viewMap").hidden=v!="map";$("viewOpp").hidden=v!="opp";$("viewDoc").hidden=v!="doc";indic();track("tab_view",{tab:v});if(v=="opp")initOpp();if(v=="doc")initDoc();scrollTo({top:0,behavior:"smooth"})});
 addEventListener("resize",indic);setTimeout(indic,50);
 $("logoImg").src=LOGO;
 const TH=$("bTheme");
@@ -619,6 +844,15 @@ st.addEventListener("mousemove",e=>{const r=st.getBoundingClientRect();st.style.
 st.addEventListener("mouseleave",()=>{st.style.setProperty("--mx",0);st.style.setProperty("--my",0)})})();
 function cnt(id,v){const C=(window._c=window._c||{}),el=$(id),a=C[id]||0;C[id]=v;const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/900),x=a+(v-a)*(1-Math.pow(1-k,3));el.textContent=(+x.toFixed(1)).toLocaleString("ar-IQ");if(k<1)requestAnimationFrame(f)})(t0)}
 </script>
+<div id="viewDoc" hidden>
+<section class="hero rv"><div class="hero-in"><span class="pill">محدَّث بتاريخ 11 أكتوبر 2026</span><h2>الوثائق الوطنية للعمل المناخي في العراق</h2><p>مكتبة موحّدة للوثائق العراقية المنشورة لدى الاتفاقية الإطارية واتفاق باريس ووزارة البيئة والأمم المتحدة والمنظمات الدولية، مرتبة حسب الموضوع مع روابط المصادر الرسمية.</p><div class="kpis" id="dK"></div></div></section>
+<h3 class="sh rv">🧭 رحلة العراق المناخية</h3><div class="yr rv" id="yr"></div>
+<h3 class="sh rv">🗂 مكتبة الوثائق</h3>
+<div class="dbar rv"><input id="dq" type="search" placeholder="🔍 ابحث عن وثيقة أو موضوع..."><div class="fl" id="dChips"></div></div>
+<div class="dact rv"><button class="sec" id="dUn" disabled>↩ تراجع</button><button class="sec" id="dRs" style="display:none">↺ استعادة المحذوفة</button></div>
+<div id="dGroups"></div>
+<p class="disc rv" id="dNote"></p>
+</div>
 <div id="toast"></div>
 </body>
 </html>
